@@ -1,0 +1,39 @@
+footer {
+    background: $card-dark;
+    margin-top: 4.5rem;
+    width: 100%;
+    
+    //border-bottom: 1rem solid #254DA8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#footer-nav{
+    font-family: $font1;
+    font-size:1.25rem;
+
+    ul{list-style-type: none;
+    li{text-decoration: none;display: inline;margin:.55rem;
+    a{color:#111;text-decoration: none;border-bottom: 0px solid black;
+       }
+       a:hover{	border-bottom: 5px solid #2f60d1;
+       }
+    }}
+    }
+
+
+#footer-verbosity {
+    font-family: $font2;
+    font-size: 1.35rem;
+    max-width: 250px;
+}
+
+#footer-icons {
+    display: flex;
+    margin-bottom: 1rem;
+    img{margin:0 .25rem;}
+
+}

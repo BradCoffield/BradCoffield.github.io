@@ -1,0 +1,21 @@
+#contact-form input, #message {
+
+    min-width: 300px;
+    // max-width: 500px;
+    padding: 1rem;
+    font-family: $font1;
+    margin-bottom: 1rem;
+    border: 1px solid grayscale($color-blue);
+    border-radius: 5px;
+   
+   
+    
+}
+#submit-button{
+    background: transparent;
+}
+ #submit-button:hover, #submit-button:focus {
+     cursor: pointer;
+     background: lighten(grayscale($color-blue),30%);
+
+ }

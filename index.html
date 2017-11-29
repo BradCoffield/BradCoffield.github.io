@@ -1,105 +1,48 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+---
+title: Brad Coffield
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Homepage for Brad Coffield, a librarian and web designer located outside of Pittsburgh, PA.">
-    <title>Brad Coffield</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-
-
-
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98096992-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-98096992-1');
-</script>
-
-
-
-
-
-</head>
-
-<body style="background:;">
-
-    <header>
-        <h1 class="cool-font" style="margin-bottom:1em;">BRAD COFFIELD</h1>
-    </header>
-
-    <div class="row">
-        <div class="large-7 columns">
-            <h2 class="cool-font">Librarian</h2>
-
-
-            <p class="cool-font">I've been a librarian at <a href="http://www.francis.edu/library" class="hvr-sweep-to-right">Saint Francis University Library</a> since 2006. </p><p>It's a lot of fun and I do things like:
-                <ul class="cool-font light-spacing" style="list-style:none;margin-top:-.5em;">
-                    <li>Reference</li>
-                    <li>Instruction</li>
-                    <li>Collection Development</li>
-                    <li>Web Development</li>
-                    
-                </ul>
-            </p>
-            <br>
-               <h2 class="cool-font">Web Designer</h2>
-
-            <p>I love making websites. If you want, I can make you one. Maybe even for free.</p>
-            <p>I'm responsible for:
-                <ul class="light-spacing">
-                    <li><a href="http://www.francis.edu/library" class="hvr-sweep-to-right">Saint Francis University Library</a></li>
-                    <li><a href="http://www.ashleykunsa.com" class="hvr-sweep-to-right">Ashley Kunsa.com</a></li>
-                    <li><a href="http://www.wpwvcacrl.org" class="hvr-sweep-to-right">Western Pennsylvania / West Virginia Chapter of ACRL</a></li>
-                    <li><a href="http://www.vetswrite.com" class="hvr-sweep-to-right">VetsWrite</a></li>
-                    <!--<li><a href="http://www.refugeeworkinggroup.weebly.com" class="hvr-sweep-to-right">Refugee Working Group of Indiana, PA</a></li>-->
-                </ul>
-            </p>
-            <br>
-        </div>
-  
+{%include header.html%}
+<html lang="en">
+    <body id="homepage-body">
  
+<div id="homepage-big-block"class="card fade-in one">
+    <div class="card-top">
+        <h1>Brad Coffield</h1>
+    </div>
+    <div class="card-middle">Librarian
+        <br>Web Developer </div>
+    <div class="card-bottom">
+        <ul class="card-nav-links">
+            <li>
+                <a href="/assets/Brad Coffield - CV - Nov2017.pdf">cv</a>
+            </li>
+            <li>
+                <a href="/blog.html">blog</a>
+            </li>
+            <li>
+                <a href="/about.html">about</a>
+            </li>
+            <li>
+                <a href="/contact.html">contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
-
-        <div class="large-5 columns">
-           <h2 class="cool-font">Get in touch.</h2>
-            <p>It'd be great to hear from you.
-                
-                   <form action="https://getsimpleform.com/messages?form_api_token=f7b81c80e418b6d4341375a3ef9e9865" method="post">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Email">
-    <textarea name="message" id="" rows="12" placeholder="Type your brilliance right here."></textarea>
-    <input style="float:right;background:gray;" type="submit" class="button" value="Send">
-</form> 
-                   
-                   
-                   
-                   
-                 
-
-            </p>
-
-
-        </div>
+<div id="nuggets-wrapper">
+    <div class="homepage-nugget ">
+        <h2  class="fade-in two">Latest Post</h2>
+        <p class="latest-post-title fade-in three">
+       <a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a> </p>
+    </div>
+    <div class="homepage-nugget ">
+        <h2 class="fade-in four"><a href="https://www.bradcoffield.com/APIs-for-librarians/">APIs 4 Librarians</a></h2>
+        <p class="latest-post-title fade-in five"><a href="https://www.bradcoffield.com/APIs-for-librarians/">Making it easy for you to use data from all over the web. Enhance your research guides!</a>
+            <br>
+            <span class="small">Hey, I did some of your work for you. Check it out.</span>
+        </p>
     </div>
 
-
-
-    
-
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    
-</body>
-
-</html>
+</div>
+</body></html>

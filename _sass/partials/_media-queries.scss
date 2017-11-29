@@ -1,0 +1,33 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 370px) {
+  #homepage-big-block h1 {font-size:3.5rem;}
+
+  .homepage-nugget h2{
+    
+    padding: .5rem 5px 0px 3em!important;  }
+    #blog-content-card {
+      max-width: 95%;
+ 
+      font-size: 1rem;
+    }
+    .post-list-post-title{font-size: 1.5rem;}
+    // .post-list-post-excerpt{display:none;}
+
+figure.highlight {margin: 15px ;}
+footer {flex-wrap: wrap;}
+}
+
+
+
+  @media only screen and (min-width: 1200px) { 
+    #blog-content-card {
+      width:960px;
+    }
+    #about-lede{
+       
+      flex-wrap: nowrap;
+   
+  }
+
+   }

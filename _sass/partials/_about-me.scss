@@ -1,0 +1,35 @@
+#about-lede{
+    display: flex column;
+    img {display: block;margin:0 auto;}
+     
+ 
+}
+#about-lede p{
+    align-self: center;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font1;
+}
+
+#about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#blog-wrap a {
+    text-decoration: none;
+    border-bottom: 3px solid lighten($color-blue, $amount: 10%);
+    color: #333;
+}
+
+#blog-wrap a:hover, #blog-wrap a:focus {
+    border-bottom: 5px solid lighten($color-blue, $amount: 10%);
+    // background: lighten($color-blue, $amount: 20%)
+}
+
+#about-content p {
+    margin: 14px 0px;
+}

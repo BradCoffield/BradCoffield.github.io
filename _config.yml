@@ -1,0 +1,32 @@
+
+title: Brad Coffield
+email: bcoffield@gmail.com
+description: > 
+  Personal homepage of Brad Coffield, librarian and web developer. 
+  Projects and blog posts centered around helping librarians and library users.
+url: "https://www.bradcoffield.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: BradCoffield
+github_username:  BradCoffield
+excerpt_separator: <!--excerpt-->
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+permalink: /:title.html
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
