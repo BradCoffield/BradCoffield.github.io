@@ -1,6 +1,6 @@
 ---
 title: "This site is live!"
-layout: post
+layout: layouts/post
 categories: meta 
 tags: 
  - short 

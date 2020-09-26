@@ -1,6 +1,6 @@
 ---
 title: "Adding API implementations to your LibGuides"
-layout: post
+layout: layouts/post
 categories: APIs for Librarians 
 tags: libguides
 ---

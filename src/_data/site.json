@@ -1,14 +1,12 @@
 {
-    "title": "Brad Coffield",
-    "url": "https://www.bradcoffield.com",
-    "baseurl": "",
-    "repo": "https://github.com/BradCoffield/BradCoffield.github.io",
-    "comments": false,
-    "description": "Personal homepage of Brad Coffield, librarian and web developer. 
-    Projects and blog posts centered around helping librarians and library users."
-    "author": {
-      "name": "Brad Coffield"
-    },
-    "og_locale": "en_US",
-    
-  }
+  "title": "Brad Coffield",
+  "url": "https://www.bradcoffield.com",
+  "baseurl": "",
+  "repo": "https://github.com/BradCoffield/BradCoffield.github.io",
+  "comments": false,
+  "description": "Personal homepage of Brad Coffield, librarian and web developer. Projects and blog posts centered around helping librarians and library users.",
+  "author": {
+    "name": "Brad Coffield"
+  },
+  "og_locale": "en_US"
+}
