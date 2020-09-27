@@ -16,31 +16,31 @@ You'll need an HTML box and a Media/Widget box and any custom CSS added to the p
 
 #### Add a new box
 
-Add a new box as you would any other. ![Adding a box in LibGuides](../assets/4posts/screenshot.305.jpg)
+Add a new box as you would any other. ![Adding a box in LibGuides](/assets/4posts/screenshot.305.jpg)
 
 #### Add a Rich Text/HTML Content Block
 
-![Adding rich text/HTML](../assets/4posts/screenshot.306.jpg)
+![Adding rich text/HTML](/assets/4posts/screenshot.306.jpg)
 
 Your basic building block of LG. This is where we will put the HTML portion of our API implementation. Take note, you have to add it via the HTML editor portion and **not** as rich text.
 
-![Use the HTML editor](../assets/4posts/screenshot.308.jpg)
+![Use the HTML editor](/assets/4posts/screenshot.308.jpg)
 
 #### Add a Media/Widget Content Block
 
-![Adding a media/widget content block](../assets/4posts/screenshot.307.jpg)
+![Adding a media/widget content block](/assets/4posts/screenshot.307.jpg)
 
 This is where we will post the Javscript portion of our business. You must wrap the code from [APIs4](https://www.bradcoffield.com/APIs-for-librarians/) in script tags: `<script> </script>`
 
-![Pasting into the widget area](../assets/4posts/screenshot.309.jpg)
+![Pasting into the widget area](/assets/4posts/screenshot.309.jpg)
 
 #### Add Custom CSS to the Page's CSS
 
-![Adding to the guide's custom CSS](../assets/4posts/screenshot.310.jpg)
+![Adding to the guide's custom CSS](/assets/4posts/screenshot.310.jpg)
 
 Near the top of the screen is where the buttons are that will allow you to add things to your guide's custom CSS. We don't add our javascript here because of the character limit. Make sure you wrap your CSS in style tags: `<style></style>`
 
-![Actually putting your CSS in](../assets/4posts/screenshot.311.jpg)
+![Actually putting your CSS in](/assets/4posts/screenshot.311.jpg)
 
 #### All done!
 
