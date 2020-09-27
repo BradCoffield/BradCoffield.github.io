@@ -1,6 +1,6 @@
-{% include header.html %}
+{% include header.njk %}
 <div id="blog-wrap">
-{% include blog-header.html %}
+{% include blog-header.njk %}
 
 <!-- 
 <div id="blog-content-wrap">
@@ -8,9 +8,9 @@
 
   <div id="blog-content">
     
-    <div id="blog-content-card">{{content}}  
+    <div id="blog-content-card"><h2>{{title}}</h2>{{content}}  
       
-      <div id="blog-post-metadata"><p>Category: {{page.categories}} ||| Tags: {{page.tags}}</p></div></div>
+      <div id="blog-post-metadata"><p>Tags: {{tags}}</p></div></div>
   
      
     

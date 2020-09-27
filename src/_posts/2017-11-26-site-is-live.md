@@ -2,8 +2,8 @@
 title: "This site is live!"
 layout: layouts/post
 categories: meta 
-tags: 
- - short 
+tags: post 
+date: 2017-11-26
 ---
 Woohoo!
 

@@ -2,7 +2,8 @@
 title: "Adding API implementations to your LibGuides"
 layout: layouts/post
 categories: APIs for Librarians 
-tags: libguides
+tags: [libguides, post]
+date: 2017-12-21
 ---
 
 At the time of this writing all of the content on [APIs for Librarians](https://www.bradcoffield.com/APIs-for-librarians) can be easily added to your guides. This guide will take you step by step, with screenshots.<!--excerpt-->
