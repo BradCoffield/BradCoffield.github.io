@@ -1,6 +1,6 @@
 ---
 title: "Jekyll's For Loops with Collections: A Clarification"
-layout: layouts/post
+layout: layouts/post.njk
 categories: jekyll 
 tags: ["post", "jekyll", "tidbits"]
 date: 2018-02-22 

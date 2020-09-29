@@ -1,8 +1,8 @@
 ---
-title: "This site is live!"
-layout: layouts/post
+title: This site is live!
+layout: layouts/post.njk
 categories: meta 
-tags: post 
+tags: ["post", "announcements", "jekyll"]
 date: 2017-11-26
 ---
 Woohoo!

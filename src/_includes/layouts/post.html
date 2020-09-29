@@ -1,24 +1,29 @@
 {% include header.njk %}
 <div id="blog-wrap">
-{% include blog-header.njk %}
+  {% include blog-header.njk %}
 
-<!-- 
+  <!-- 
 <div id="blog-content-wrap">
    -->
 
   <div id="blog-content">
-    
-    <div id="blog-content-card"><h2>{{title}}</h2>{{content}}  
-      
-      <div id="blog-post-metadata"><p>Tags:
-     
-        
-        {{tags}}</p></div></div>
-  
-     
-    
-    
-  </div></div>   
- 
- 
+    <div id="blog-content-card">
+      <h2>{{title}}</h2>
+      {{content}}
+
+      <div id="blog-post-metadata">
+        {{ page.date.toDateString() }}
+        <p>
+          <ul>
+            Tags: 
+            {% for item in tags %} {% if item == "post" %} {%else%}
+            <li style="display: inline">{{ item }}</li>
+            {%endif%} {% endfor %}
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% include footer.html %}
