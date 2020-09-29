@@ -4,15 +4,14 @@ $color-main-light: #254da8;
 $color-apis: #008080;
 $font1: "League Spartan", serif;
 $font2: "Fanwood", serif;
-$bg-grid: url(/assets/hip-square.png);
-$bg-chalk: url(/assets/chalkboard.jpg);
-$bg-dotty: url(/assets/dotty2.jpg);
-$bg-noisy: url(/assets/green1.jpeg);
+ 
 $bg-library: url(/assets/library3-min.jpg);
-$bg-code: url(/assets/code4.jpg);
+ 
 $card-dark: rgba(255, 255, 255, 0.6);
 $card-light: rgba(255, 255, 255, 0.8);
 $line-height: 2.5rem;
+$color-code-background: #383a2e;
+$color-code-color: #f8f8f2;
 
 // @use "../_sass/partials/_variables.scss";
 // @use "../_sass/partials/_media-queries.scss";
@@ -23,6 +22,19 @@ $line-height: 2.5rem;
 // @use "../_sass/partials/blog";
 // @use "../_sass/partials/about-me";
 // @use "../_sass/partials/contact";
+
+// 2020 new stuff
+
+code { 
+  background-color: $color-code-background;
+  color: $color-code-color;
+  border-radius: 0.3em;
+  padding: 4px 5px 6px;
+  white-space: nowrap;
+  font-size: .9rem;
+}
+
+
 
 /* formerly _media-queries */
 @media only screen and (min-device-width: 320px) and (max-device-width: 959px) {
