@@ -88,7 +88,7 @@ code {
 
 @media only screen and (min-width: 1200px) {
   #blog-content-card {
-    width: 960px;
+  width: 960px;
   }
   #about-lede {
     flex-wrap: nowrap;
@@ -229,6 +229,7 @@ footer {
 .post-list-post-excerpt {
   margin-left: 2rem;
   font-size: 1.35rem;
+  margin-top: .5rem;
 }
 /* FOR BLOG-header.njk */
 #blog-header {

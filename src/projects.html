@@ -1,22 +1,68 @@
 ---
 title: Projects
-layout: layouts/sub-page 
+layout: layouts/sub-page
 ---
-<div id="about-lede">
+
+<!-- <h2>Projects</h2> -->
+
+<p>
+  Explore a few of the larger projects that I'm working on. Everything below is
+  still active, some of them are in heavy development. I'd love to hear
+  <a href="/contact/">questions or comments</a>.
+</p>
+<div id="projects-content">
+  <div class="project-wrap cheatsheets">
+    <h3>Library Cheatsheets</h3>
     <p>
-        Hi there. <br>I'm a librarian and web developer from Billings, MT. </p>
-        <!-- <img src='https://placehold.it/350x450?text=hey' alt='' /> -->
+      The idea of library cheatsheets was born from the desire to provide a
+      modern pathfinder solution to students without many of the pitfalls of
+      most LibGuide implementations. It was decided to implement a series of
+      single page guides with only the most essential research starting
+      information. This would prevent scope creep and make it easier to design
+      attractive and useful guides.
+    </p>
 
-        
-    
+    <p>
+      Another core part of the new cheatsheets system is that it be able to be
+      easily managed and not require ongoing page by page editing of HTML. I
+      wanted to leverage a central repository of data as much as possible. Make
+      a modification in the backend system and have that change populate to all
+      cheatsheets without any further intervention. To this end a custom API was
+      built that powers the frontend cheatsheets and is managed by a Vue app. Aside from certain static
+      resources (the Primo search bar, for instance) everything is managed in
+      the backend.
+    </p>
+    <p>
+      Ironically, the cheatsheets are both public at Rocky Mountain
+      College (<a href="https://www.rocky.edu/academics/library/library-cheatsheets">see!</a>) and are in what is, at best, a beta state. I'm continuing to
+      consider how best to to present the cheatsheets to users that makes the
+      most sense and to consider what content is best to feature. Also, while
+      the backend works I continue to work on error handling, UX, and expanding
+      its capabilities. It is a longer-term goal of the project to make it an
+      open-source "product" that is able to be (relatively) easily implemented without
+      cost by other instituions, especially those without LibGuides and whose
+      budgets may not allow for their purchase.
+    </p>
+    <p>The code for the frontend and the backend is available on Github: 
+            <ul style="padding-left:40px">
+                    <li><a href="https://github.com/BradCoffield/library-cheatsheets">Library Cheatsheets</a> </li>
+                    <li><a href="https://github.cdom/BradCoffield/library-cheatsheets-manager">Library Cheatsheets Manager</a> </li>
+            </ul>
+    </p>
+  </div>
+  <div class="project-wrap apis4">
+    <h3>APIs for Librarians</h3>
+<p>My first tangible goal when learning javascript was to interact with the Libguides API and do something useful with it. Once I started with that I fell in love with the concept of getting data from APIs and doing fun/worthwhile things with it. Eventually, I had the idea to build a site that shared "how-to's" that worked with library relevant APIs to help other librarians, whether they be coders or not. Thus "APIs for Librarians" was born. </p>
+<p>Over time I've had people reach out letting me know that they were using pieces of the site on their own library webspaces. Others have written for help using them. Still others have just sent me a note thanking me for the useful site. Very gratifying! I've also had two others submit pieces for the site and I hope more will do so. The amount that I post to the site has slowed down as much of my development work has steered beyond front-end API usage to Nodejs environments, like proxy servers or servlerless functions, or to more tightly integrated front and backend systems, like the library cheatsheets.</p>
+<p><ul style="padding-left:40px">
+        <li><a href="https://www.bradcoffield.com/APIs-for-librarians/">APIs for Librarians</a></li>
+</ul></p>
+  </div>
+
+<div class="project-wrap rmc-data-manager">
+        <h3>RMC Library Data Manager</h3>
+        <p>When I left Saint Francis University I had been using Libguides (and eventually many other Springshare products) for around a decade and had been the admin for the system for the majority of that time. I was really accustomed to the way Libguides worked. One thing in particular that I missed was the very useful database manager built into LG. Libguides taught me about centralized data management, a model that I came to love and is obviously a given in most modern systems. The ability to edit a database's metadata in one screen and have that automatically change on dozens of pages was glorious. </p>
+        <p>I wanted to re-create that. So I did. I used Google's Firebase, in particular its Firestore database, as my datastore. I built a CRUD app using Vue to interact with Firestore in a systematic and ___ way. Then, with a well-structured backend I was able to write some front-end code to pull the databases into our Drupal managed web presence. </p>
 </div>
-<div id="about-content">
-    
-     
-        <p>I worked for Saint Francis University Library from 2006 to 2018 and now I work for Rocky Mountain College. My job's a lot of fun, and I do a variety of things: reference, instruction, collection development, and web development.</p>
 
-        <p>I love to make websites and work with code. Please take a moment to check out my work on <a href="https://www.rocky.edu/library">library sites</a>, <a href="http://www.ashleykunsa.com">personal webpages</a>, and <a href="http://www.wpwvcacrl.org">non-profits</a>. </p>  
-        <p>One of the reasons I love being a librarian is because of how much I enjoy helping people. I bring that same passion to my web work. If you're someone looking for a new website (or an update to an existing one) for yourself, your small-business, non-profit, or church, let me know. My freelance rates are reasonable and if you represent a small organization without many resources I'm also interested in donating my services. <a href="{{site.baseurl}}/contact.html">Get in touch!</a></p>
-       
-    
 </div>
