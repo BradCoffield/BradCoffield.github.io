@@ -1,0 +1,28 @@
+{% include "header.njk" %}
+<div id="blog-wrap">
+  {% include "blog-header.njk" %}
+
+  <div id="blog-content">
+    <div id="blog-content-card">
+      {# <h2>{{title}}</h2> #}
+      {{content | safe}}
+
+      <div id="blog-post-metadata">
+        <p>
+          <ul>
+             Posted: {{ page.date.toLocaleDateString("en-us", { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' }) }}
+  <br> Tags:
+            {% for item in tags %}
+              {% if item == "post" %}
+                {%else%}
+                <li style="display: inline;margin: 0px .5rem;"><a href="/tags/{{item}}/">{{ item }}</a></li>
+                {%endif%}
+              {% endfor %}
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include "footer.html" %}

@@ -1,0 +1,78 @@
+---
+title: Projects
+layout: layouts/sub-page
+---
+
+<!-- <h2>Projects</h2> -->
+
+<p>
+  Explore a few of the larger projects that I'm working on. Everything below is
+  still active, some of them are in heavy development. I'd love to hear
+  <a href="/contact/">questions or comments</a>.
+</p>
+<div id="projects-content">
+  <div class="project-wrap cheatsheets">
+    <h3>Library Cheatsheets</h3>
+    <p>
+      The idea of library cheatsheets was born from the desire to provide a
+      modern pathfinder solution to students without many of the pitfalls of
+      most LibGuide implementations. It was decided to implement a series of
+      single page guides with only the most essential research starting
+      information. This would prevent scope creep and make it easier to design
+      attractive and useful guides.
+    </p>
+
+    <p>
+      Another core part of the new cheatsheets system is that it be able to be
+      easily managed and not require ongoing page by page editing of HTML. I
+      wanted to leverage a central repository of data as much as possible. Make
+      a modification in the backend system and have that change populate to all
+      cheatsheets without any further intervention. To this end a custom API was
+      built that powers the frontend cheatsheets and is managed by a Vue app. Aside from certain static
+      resources (the Primo search bar, for instance) everything is managed in
+      the backend.
+    </p>
+    <p>
+      Ironically, the cheatsheets are both public at Rocky Mountain
+      College (<a href="https://www.rocky.edu/academics/library/library-cheatsheets">see!</a>) and are in what is, at best, a beta state. I'm continuing to
+      consider how best to to present the cheatsheets to users that makes the
+      most sense and to consider what content is best to feature. Also, while
+      the backend works I continue to work on error handling, UX, and expanding
+      its capabilities. It is a longer-term goal of the project to make it an
+      open-source "product" that is able to be (relatively) easily implemented without
+      cost by other instituions, especially those without LibGuides and whose
+      budgets may not allow for their purchase.
+    </p>
+    <p>The code for the frontend and the backend is available on Github: 
+            <ul style="padding-left:40px">
+                    <li><a href="https://github.com/BradCoffield/library-cheatsheets">Library Cheatsheets</a> </li>
+                    <li><a href="https://github.cdom/BradCoffield/library-cheatsheets-manager">Library Cheatsheets Manager</a> </li>
+            </ul>
+    </p>
+  </div>
+  <div class="project-wrap apis4">
+    <h3>APIs for Librarians</h3>
+<p>My first tangible goal when learning javascript was to interact with the Libguides API and do something useful with it. Once I started with that I fell in love with the concept of getting data from APIs and doing fun/worthwhile things with it. Eventually, I had the idea to build a site that shared "how-to's" that worked with library relevant APIs to help other librarians, whether they be coders or not. Thus "APIs for Librarians" was born. </p>
+<p>Over time I've had people reach out letting me know that they were using pieces of the site on their own library webspaces. Others have written for help using them. Still others have just sent me a note thanking me for the useful site. Very gratifying! I've also had two others submit pieces for the site and I hope more will do so. The amount that I post to the site has slowed down as much of my development work has steered beyond front-end API usage to Nodejs environments, like proxy servers or servlerless functions, or to more tightly integrated front and backend systems, like the library cheatsheets.</p>
+<p><ul style="padding-left:40px">
+        <li><a href="https://www.bradcoffield.com/APIs-for-librarians/">APIs for Librarians</a></li>
+</ul></p>
+  </div>
+
+<div class="project-wrap rmc-data-manager">
+        <h3>RMC Library Data Manager</h3>
+        <p>When I left Saint Francis University I had been using Libguides (and eventually many other Springshare products) for around a decade and had been the admin for the system for the majority of that time. I was really accustomed to the way Libguides worked. One thing in particular that I missed was the very useful database manager built into LG. Libguides taught me about centralized data management, a model that I came to love and is obviously a given in most modern systems. The ability to edit a database's metadata in one screen and have that automatically change on dozens of pages was glorious. </p>
+        <p>I wanted to re-create that. So, I used Google's Firestore database, as my datastore. I built a CRUD app using Vue to interact with Firestore in a systematic way that keeps my data structured predictably. Then, with a well-structured backend I was able to write some front-end code to pull the databases into our Drupal managed web presence. </p>
+        <p>This enabled a few things. Now, I can add or change databases in one place and use them anywhere. So, now we have an alphabetical AZ databases list but also a series of "Databases by Subject" pages. Databases are also now used in the Library Cheatsheets. And I'd like to establish a more significant presence in the campus's LMS and databases would be used there as well.</p>
+
+        <p>But this project became about more than just databases. I also built a way to manage metadata (like database content types) that could be dynamically managed. In addition to this, the library's featured collections are built in this system and used to populate the lirbary homepage, a random three of them at any one time. This central datastore also enables me to easily create visualizations of our database data.</p>
+</div>
+
+<div class="project-wrap g2">
+  <h3><em>genre2</em></h3>
+  <p>I made the website for and am one of the editors of the literary journal, <em>genre2</em>! It's an online journal dedicated to publishing work by authors outside of their primary genre. So, if they are a poet we won't publish their poetry but instead their fiction, nonfiction, or visual art.</p>
+  <p>I've also been working on a custom submission manager for us because...well... no thanks Submittable and our inital system of google sheets and gmail just wasn't tenable long term.</p>
+  <p>Check it out! <a href="https://www.genre2.org">www.genre2.org  </a></p>
+</div>
+
+</div>
