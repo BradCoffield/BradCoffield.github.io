@@ -4,4 +4,10 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/apis-for-librarians"
+  to = "https://www.apis4librarians.com"
+  status = 301
+  force = true
+
  
