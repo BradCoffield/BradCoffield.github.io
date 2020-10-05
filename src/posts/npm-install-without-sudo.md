@@ -14,6 +14,6 @@ For years I used `sudo` for everything npm... Oops.
 
 I never started using nvm despite it being well-regarded and oft recommended because it's primary function is to allow you to quickly switch between versions of Node. The use-case as I understand it is if you're working on different projects that have different Node version requirements. And I'm like.... slow down hossbucket, you're getting pretty fancy over there. I've only ever had to use the latest active LTS and my Node life has always been sunny.
 
-But! if you remove all your former Node installs (for instance with your package manager) and then install nvm [see the instructions on their repo](https://github.com/nvm-sh/nvm#installing-and-updating) you now can `npm i` things without sudo! Not only is a major security boost but now you don't have to type sudo and your password every time, which while a minor benefit is still welcome.
+But! if you remove all your former Node installs (for instance with your package manager) and then install nvm ([see the instructions on their repo](https://github.com/nvm-sh/nvm#installing-and-updating)) you now can `npm i` things without sudo! Not only is a major security boost but now you don't have to type sudo and your password every time, which while a minor benefit is still welcome.
 
 
