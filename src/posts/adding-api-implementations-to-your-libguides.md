@@ -2,7 +2,7 @@
 title: "Adding API implementations to your LibGuides"
 layout: layouts/post.njk
 categories: APIs for Librarians 
-tags: [libguides, post, "APIs for Librarians", projects, APIs, javascript]
+tags: [libguides, post, "APIs for Librarians", projects, APIs, javascript, guide]
 date: 2017-12-21
 ---
 
