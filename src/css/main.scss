@@ -299,7 +299,14 @@ footer {
 #blog-content-card {
   background: rgba(211, 211, 211, 1);
   // background: $card-dark;
-  padding: 2rem;
+  padding: 2rem 4rem;
+}
+
+#blog-content-card ul {
+  margin-left:40px;
+}
+#blog-content-card h2, #blog-content-card h3 {
+  margin-top: 4rem
 }
 
 #blog-post-metadata {
@@ -535,4 +542,25 @@ ul {
 }
 #second_email {
   display: none;
+}
+
+
+blockquote {
+  // background: #f9f9f9;
+  border-left: 2px solid #555;
+  margin: 3rem 40px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #555
+}
+// blockquote:before {
+//   color: teal;
+//   content: open-quote;
+//   font-size: 4em;
+//   line-height: 0.1em;
+//   margin-right: 0.25em;
+//   vertical-align: -0.4em;
+// }
+blockquote p {
+  display: inline;
 }
